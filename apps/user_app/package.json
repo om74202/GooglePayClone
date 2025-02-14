@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "user_app",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,8 +11,12 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@repo/db": "*",
+    "@repo/store": "*",
     "@repo/ui": "*",
-    "next": "^15.1.0",
+    "auth": "^1.2.3",
+    "next": "^15.1.2",
+    "next-auth": "^4.24.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
