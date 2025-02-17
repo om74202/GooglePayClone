@@ -7,7 +7,7 @@ export const GET=async ()=>{
     try{
         
     if(session.user){
-        return NextResponse.json({
+        return NextResponse.json({ 
             user:session.user,
         })
     }
